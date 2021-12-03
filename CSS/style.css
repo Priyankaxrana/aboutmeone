@@ -1,0 +1,345 @@
+body {
+  background-color: #f7eda6;
+  display: inline-block;
+  font-family: "BenchNine", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Six Caps", sans-serif;
+  font-size: 250px;
+  letter-spacing: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0 0 0 70px;
+  position: relative;
+}
+
+.nav-links {
+  padding: 0 70px 0 0;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 8px 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-links ul li :hover {
+  background: red;
+  transition: 1s;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: black;
+  padding: 20px 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  vertical-align: top;
+  text-align: left;
+}
+
+.first-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-container h3 {
+  writing-mode: vertical-rl;
+  font-family: "Six Caps", sans-serif;
+  text-orientation: upright;
+  vertical-align: top;
+  font-size: 110px;
+  margin: 0;
+  padding: 40px 0;
+  display: inline-block;
+  text-overflow: ellipsis;
+  color: white;
+  background-color: red;
+  letter-spacing: -25px;
+}
+
+.first-container p {
+  color: black;
+  font-size: 1.4em;
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.profile-photo {
+  width: 33.3%;
+  height: fit-content;
+}
+
+/* Responsive layout - makes a one column layout */
+@media (max-width: 800px) {
+  .first-container {
+    display: block;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .first-container h3 {
+    writing-mode: horizontal-tb;
+    font-family: "Six Caps", sans-serif;
+    font-size: 90px;
+    margin: 0;
+    padding: 0px;
+    color: white;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+
+  .first-container p {
+    position: relative;
+    padding: 20px;
+    width: fit-content;
+    text-align: left;
+  }
+
+  .profile-photo {
+    display: block;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.banner-image {
+  height: auto;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.work-container {
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+}
+
+.second-container h3 {
+  background-color: red;
+  color: white;
+  display: inline;
+  float: left;
+  font-family: "Six Caps", sans-serif;
+  font-size: 110px;
+  margin: 0;
+  text-orientation: upright;
+  text-overflow: ellipsis;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+.images {
+  display: inline-block;
+  margin: 20px;
+}
+
+.images img {
+  background-color: grey;
+  height: auto;
+  width: 100%;
+}
+
+.images p {
+  min-width: 100%;
+  width: 0;
+}
+
+footer {
+  background-color: black;
+  height: 700px;
+}
+
+.third-container h3 {
+  background-color: red;
+  color: white;
+  writing-mode: horizontal-tb;
+  font-size: 110px;
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 10px;
+  padding: 20px 0;
+  text-orientation: upright;
+  text-align: center;
+  width: 100%;
+  vertical-align: top;
+}
+
+.contact-me-form {
+  background-color: black;
+  float: left;
+  font-family: "BenchNine", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: fit-content;
+  margin: 20px 20px 0;
+  position: relative;
+  width: 40%;
+}
+
+label {
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f7eda6;
+  border-width: 0;
+  color: black;
+  font-family: "BenchNine", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #f7eda6;
+  border-width: 0;
+  color: black;
+  font-family: "BenchNine", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.location {
+  height: 30%;
+  margin: 20px;
+  position: relative;
+  width: auto;
+}
+
+.social-icon {
+  height: 5%;
+  margin: 0;
+  position: relative;
+  padding: 0 1px 0 20px;
+  width: auto;
+}
+
+.location-container {
+  display: block;
+  float: right;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+  h1 {
+    font-family: "Six Caps", sans-serif;
+    font-size: 200px;
+    letter-spacing: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .work-container {
+    align-items: stretch;
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .second-container h3 {
+    display: block;
+    float: left;
+    letter-spacing: 10px;
+    margin: 0;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    writing-mode: horizontal-tb;
+  }
+
+  .images {
+    display: block;
+    height: auto;
+    margin: 20px 0;
+    margin: 0 auto 0;
+    width: 70%;
+  }
+
+  .images img {
+    display: block;
+    margin: 40px 0 20px 0;
+  }
+
+  .images p {
+    display: block;
+    min-width: 100%;
+    margin: 0 auto 0;
+  }
+
+  .contact-me-form {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    width: 80%;
+  }
+
+  .location {
+    display: block;
+    height: 30%;
+    margin: 20px;
+    position: relative;
+    width: auto;
+  }
+
+  .location-container {
+    display: block;
+    float: left;
+  }
+
+  .social-icon {
+    height: 5%;
+    margin: 0;
+    position: relative;
+    padding: 0 1px 0 20px;
+    width: auto;
+  }
+
+  footer {
+    background-color: black;
+    display: block;
+    height: 1100px;
+    width: 100%;
+  }
+}
