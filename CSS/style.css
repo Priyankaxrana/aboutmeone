@@ -177,22 +177,17 @@ nav {
   width: 0;
 }
 
-footer {
-  background-color: black;
-  height: 700px;
-}
-
 .third-container h3 {
   background-color: red;
   color: white;
-  writing-mode: horizontal-tb;
   font-size: 110px;
   font-family: "Six Caps", sans-serif;
   letter-spacing: 10px;
-  padding: 20px 0;
+  margin: 0;
   text-orientation: upright;
   text-align: center;
   width: 100%;
+  writing-mode: horizontal-tb;
   vertical-align: top;
 }
 
@@ -206,6 +201,11 @@ footer {
   margin: 20px 20px 0;
   position: relative;
   width: 40%;
+}
+
+footer {
+  background-color: black;
+  height: 500px;
 }
 
 label {
@@ -339,7 +339,7 @@ textarea {
   footer {
     background-color: black;
     display: block;
-    height: 1100px;
+    height: 1000px;
     width: 100%;
   }
 }
